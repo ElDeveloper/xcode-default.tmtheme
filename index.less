@@ -1,30 +1,40 @@
-.editor, .editor .gutter {
+atom-text-editor,
+atom-text-editor::shadow,
+atom-text-editor .gutter,
+atom-text-editor::shadow .gutter {
   background-color: #FFFFFF;
   color: #000000;
 }
 
-.editor .indent-guide {
+atom-text-editor .indent-guide,
+atom-text-editor::shadow .indent-guide {
   box-shadow: 1px 0 rgba(0, 0, 0, 0.2);
-
 }
 
-.editor .wrap-guide {
+atom-text-editor .wrap-guide,
+atom-text-editor::shadow .wrap-guide {
     background: rgba(0, 0, 0, 0.2);
 }
 
-.editor .invisible-character {
+atom-text-editor .invisible-character,
+atom-text-editor::shadow .invisible-character {
     color: rgba(0, 0, 0, 0.7);
 }
 
-.editor.is-focused .cursor {
+atom-text-editor.is-focused .cursor,
+atom-text-editor.is-focused::shadow .cursor {
   border-color: #000000;
 }
 
-.editor.is-focused .selection .region {
+atom-text-editor.is-focused .selection .region,
+atom-text-editor.is-focused::shadow .selection .region {
   background-color: #A6CBFF;
 }
 
-.editor.is-focused .line-number.cursor-line-no-selection, .editor.is-focused .line.cursor-line {
+atom-text-editor.is-focused .line-number.cursor-line-no-selection,
+atom-text-editor.is-focused::shadow .line-number.cursor-line-no-selection,
+atom-text-editor.is-focused .line.cursor-line,
+atom-text-editor.is-focused::shadow .line.cursor-line {
   background-color: rgba(255, 225, 53, 0.3);
 }
 
