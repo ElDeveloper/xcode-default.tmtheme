@@ -1,184 +1,184 @@
 atom-text-editor,
-atom-text-editor::shadow,
+atom-text-editor.editor,
 atom-text-editor .gutter,
-atom-text-editor::shadow .gutter {
+atom-text-editor.editor .gutter {
   background-color: #FFFFFF;
   color: #000000;
 }
 
 atom-text-editor .indent-guide,
-atom-text-editor::shadow .indent-guide {
+atom-text-editor.editor .indent-guide {
   box-shadow: 1px 0 rgba(0, 0, 0, 0.2);
 }
 
 atom-text-editor .wrap-guide,
-atom-text-editor::shadow .wrap-guide {
+atom-text-editor.editor .wrap-guide {
     background: rgba(0, 0, 0, 0.2);
 }
 
 atom-text-editor .invisible-character,
-atom-text-editor::shadow .invisible-character {
+atom-text-editor.editor .invisible-character {
     color: rgba(0, 0, 0, 0.7);
 }
 
 atom-text-editor.is-focused .cursor,
-atom-text-editor.is-focused::shadow .cursor {
+atom-text-editor.is-focused.editor .cursor {
   border-color: #000000;
 }
 
 atom-text-editor.is-focused .selection .region,
-atom-text-editor.is-focused::shadow .selection .region {
+atom-text-editor.is-focused.editor .selection .region {
   background-color: #A6CBFF;
 }
 
 atom-text-editor.is-focused .line-number.cursor-line-no-selection,
-atom-text-editor.is-focused::shadow .line-number.cursor-line-no-selection,
+atom-text-editor.is-focused.editor .line-number.cursor-line-no-selection,
 atom-text-editor.is-focused .line.cursor-line,
-atom-text-editor.is-focused::shadow .line.cursor-line {
+atom-text-editor.is-focused.editor .line.cursor-line {
   background-color: rgba(255, 225, 53, 0.3);
 }
 
-.comment {
+.syntax--comment {
   color: #008D00;
 }
 
-.meta.preprocessor, .keyword.control.import {
+.syntax--meta.syntax--preprocessor, .syntax--keyword.syntax--control.syntax--import {
   color: #7C4625;
 }
 
-.string {
+.syntax--string {
   color: #DD0004;
 }
 
 
-.constant.numeric {
+.syntax--constant.syntax--numeric {
   color: #1C00CF;
 }
 
-.constant.language {
+.syntax--constant.syntax--language {
   color: #C800A7;
 }
 
 
-.constant.character, .constant.other {
+.syntax--constant.syntax--character, .syntax--constant.syntax--other {
   color: #26474B;
 }
 
-.variable.language {
+.syntax--variable.syntax--language {
   color: #C800A7;
 }
 
-.variable.other {
+.syntax--variable.syntax--other {
   color: #5C2699;
 }
 
-.keyword {
+.syntax--keyword {
   color: #C800A7;
 }
 
-.storage {
+.syntax--storage {
   color: #C800A7;
 }
 
-.entity.name.class {
+.syntax--entity.syntax--name.syntax--class {
   color: #5C2699;
 }
 
-.entity.other.inherited-class {
+.syntax--entity.syntax--other.syntax--inherited-class {
   color: #5C2699;
 }
 
-.entity.name.function {
+.syntax--entity.syntax--name.syntax--function {
   color: #000000;
 }
 
-.variable.parameter {
+.syntax--variable.syntax--parameter {
   color: #000000;
 }
 
-.entity.name.tag {
+.syntax--entity.syntax--name.syntax--tag {
   color: #790EAD;
 }
 
-.entity.other.attribute-name {
+.syntax--entity.syntax--other.syntax--attribute-name {
   color: #450084;
 }
 
-.support.function {
+.syntax--support.syntax--function {
   color: #2E0D6E;
 }
 
-.support.function.any-method {
+.syntax--support.syntax--function.syntax--any-method {
   color: #5832A4;
 }
 
-.support.constant {
+.syntax--support.syntax--constant {
   color: #450084;
 }
 
-.support.type, .support.class {
+.syntax--support.syntax--type, .syntax--support.syntax--class {
   color: #790EAD;
 }
 
-.support.other.variable {
+.syntax--support.syntax--other.syntax--variable {
   color: #790EAD;
 }
 
-.invalid {
+.syntax--invalid {
     color: #F8F8F0;
     background-color: #F92672;
 }
 
-.link {
+.syntax--link {
   color: #0E0EFF;
   text-decoration: underline;
 }
 
-.markup.bold {
+.syntax--markup.syntax--bold {
   font-weight: bold;
   color: #008D00;
 }
 
-.markup.italic {
+.syntax--markup.syntax--italic {
   font-style: italic;
   color: #DD0004;
 }
 
-.markup.heading{
+.syntax--markup.syntax--heading{
   font-weight: bold;
   color:#C800A7;
 }
 
-.markup.underline {
+.syntax--markup.syntax--underline {
   color: #0E0EFF;
   text-decoration: underline;
 }
 
-.markup.quote {
+.syntax--markup.syntax--quote {
   font-style: italic;
 }
 
-.markup.list {
+.syntax--markup.syntax--list {
   font-style: italic;
   color: #6A0C98;
 }
 
-.markup.heading {
+.syntax--markup.syntax--heading {
   font-weight: bold;
   color: #42257C;
 }
 
-.markup.quote {
+.syntax--markup.syntax--quote {
   color:#7C4625;
 }
 
-.markup.quote {
+.syntax--markup.syntax--quote {
   color:#7C4625;
 }
 
-.c.preprocessor {
-  .punctuation.definition.keyword,
-  .preprocessor.name {
+.syntax--c.syntax--preprocessor {
+  .syntax--punctuation.syntax--definition.syntax--keyword,
+  .syntax--preprocessor.syntax--name {
     color: #7C4625;
   }
 }
